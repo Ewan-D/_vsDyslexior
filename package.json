@@ -1,12 +1,12 @@
 {
-  "name": "beginnersbase11ty",
+  "name": "_vsDyslexior",
   "version": "0.0.1",
-  "description": "A spring board for the next project that aims to be good for a beginner who enjoys enough simplicty to understand how the parts all fit together and build on solid understanding (hopefully!)",
+  "description":"site for my ramblings museings and other such things" ,
   "main": "index.js",
   "scripts": {
     "dev": "eleventy --serve & postcss src/css/tailwind.css -o src/css/style.css -w",
     "build": "ELEVENTY_PRODUCTION=true eleventy && NODE_ENV=production npx tailwind build ./src/css/tailwind.css -o ./dist/css/style.css",
-    "start": "ELEVENTY_PRODUCTION=true eleventy --pathprefix=\"/beginnersBase11ty/\" && NODE_ENV=production npx tailwind build ./src/css/tailwind.css -o ./dist/css/style.css"
+    "start": "ELEVENTY_PRODUCTION=true eleventy --pathprefix=\"/_vsDyslexior/\" && NODE_ENV=production npx tailwind build ./src/css/tailwind.css -o ./dist/css/style.css"
   },
   "author": "Ewan-D",
   "license": "MIT",

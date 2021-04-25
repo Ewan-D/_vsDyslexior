@@ -1,9 +1,9 @@
 {
-    "title": "beginnersBase11ty",
-    "description": "spring board for building websites with a rambling readme!",
-    "siteLogo": "/siteImages/siteLogoxSm.png",
+    "title": "_vsDyslexior",
+    "description": "a site for my ramblings museings and other such things",
+    "siteLogo": "",
     "feed": {
-        "subtitle": "subtitle goes here hey, lets write about ... and...",
+        "subtitle": "music, art, computers... repeat!",
         "filename": "feed.xml",
         "path": "/feed/atomFeed.xml",
         "id": "https://example.com/",
