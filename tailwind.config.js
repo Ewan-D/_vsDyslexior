@@ -7,7 +7,7 @@ module.exports = {
 
     extend: {
       boxShadow: {
-        'site': '4px 4px #E75A7C',
+        'site': '2px 2px #E75A7C',
       },
     },
 
