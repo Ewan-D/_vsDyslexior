@@ -10,6 +10,10 @@
         .prose p {
             @apply mt-2;
         }
+
+        .prose>p:first-child:first-letter{
+            @apply text-4xl p-0.5 mr-0.5 bg-black text-white leading-none shadow-site;
+        }
     }
 
 /* custom components */

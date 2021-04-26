@@ -6,14 +6,15 @@ module.exports = {
   theme: {
 
     extend: {
-      backgroundImage: theme => ( {
-        'pygmPossum': "url('/siteImages/pygmPossumSiteLogo.png')"
-      })
+      boxShadow: {
+        'site': '4px 4px #E75A7C',
+      },
+    },
 
   },
+
   variants: {
 
-    },
   },
   plugins: [],
 }
