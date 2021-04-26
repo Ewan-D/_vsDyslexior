@@ -1,7 +1,5 @@
-
 {%- set nextPost = collections.post | getNextCollectionItem(page) %}
 {%- set previousPost = collections.post | getPreviousCollectionItem(page) %}
-
 
 {%- if nextPost or previousPost %}
 
@@ -15,13 +13,12 @@
           <p>"{{ previousPost.data.title }}"</p></a>
   </li>{% endif %}
 
-
   {%- if nextPost %}<li class="text-right">
       <a class="classicLink" href="{{ nextPost.url | url }}"><p>Next post:></p>
           <p> "{{ nextPost.data.title }}"</p></a>
   </li>{% endif %}
-</ol>
 
-{%- endif %}
+</ol>
 </nav>
 </div>
+  {%- endif %}

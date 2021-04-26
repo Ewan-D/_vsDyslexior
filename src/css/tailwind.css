@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-    /* how to style those md files... */
         .prose h2 {
             @apply font-bold mt-3 text-xl;
         }
@@ -16,10 +15,9 @@
         }
     }
 
-/* custom components */
 @layer components {
     .classicLink {
-        @apply text-blue-600 hover:underline;
+        @apply hover:underline;
     }
     .tagged {
         @apply mr-2 px-2 bg-gray-200;
@@ -28,7 +26,6 @@
 
 }
 
-/* my shot at mimicing the hover effect on the 11ty website. This is starting to feel like fan art */
 @layer utilities {
     .eleventyTag:hover{
         color: white;
@@ -45,17 +42,5 @@
 	    50%{
 		    background-position: 100% 0%;
 	    }
-    }
-        #pygmPossum {
-        z-index: -1;
-        position: absolute;
-        animation-name: enterStageRight;
-        animation-duration: 42s;
-        animation-iteration-count: infinite;
-    }
-
-    @keyframes enterStageRight {
-        0%   {transform: translateX(85%) translateY(-70%)}
-        100% {transform: translateX(-75%) translateY(-90%)}
     }
 }
