@@ -2,4 +2,5 @@
 title: start
 ---
 
-Okay, are we ready? Lets start...
+What is it that I am doing here?... good start!
+
