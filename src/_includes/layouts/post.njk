@@ -10,7 +10,10 @@ layout: layouts/postBase
     <div class="mb-3 text-gray-700">
         <time datetime="{{ page.date | dateToString }}">~ {{ page.date | readableDate }}</time>
     </div>
+
+    <div class="prose">
         {{ content | safe }}
+    </div>
 
 <div class="flex flex-initial mt-7" aria-labelledby="currentPostsTagsList">
 {% set checkForTags = tags | tagFilter('post')  %}
