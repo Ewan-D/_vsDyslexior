@@ -15,7 +15,7 @@ layout: layouts/postBase
         {{ content | safe }}
     </div>
 
-<div class="flex flex-initial mt-7" aria-labelledby="currentPostsTagsList">
+<div class="flex flex-initial mt-9" aria-labelledby="currentPostsTagsList">
 {% set checkForTags = tags | tagFilter('post')  %}
 
       <h3 class="font-bold mr-2 {% if checkForTags == 0 %} hidden {% endif %}" id="tagList">This post is tagged with:</h3>
