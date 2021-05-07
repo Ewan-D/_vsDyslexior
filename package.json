@@ -1,7 +1,7 @@
 {
   "name": "_vsDyslexior",
   "version": "0.0.1",
-  "description":"site for my ramblings museings and other such things" ,
+  "description": "site for my ramblings museings and other such things",
   "main": "index.js",
   "scripts": {
     "dev": "eleventy --serve & postcss src/css/tailwind.css -o src/css/style.css -w",
@@ -21,5 +21,6 @@
     "markdown-it-emoji": "^2.0.0",
     "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.0.4"
-  }
+  },
+  "dependencies": {}
 }
