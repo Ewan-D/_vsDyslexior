@@ -95,12 +95,13 @@ pause = (id) =>{
 stop = (id) =>{
 
      song.currentTime = 0;
+     songB.currentTime = 0;
      stopSpin();
      reset();
 
      if(!sideB){
          song.pause();
-     } else {
+     }else{
          songB.pause();
      }
 };
@@ -147,6 +148,7 @@ let reset = () => {
 // 'flips' tape to other side NOTE: name this better flip or turn or just anything other than spin!!
 spinTape = () => {
 // checks if tape is playing first
+
      if(!playTape){
 
          let side = document.getElementById('side')
@@ -154,11 +156,13 @@ spinTape = () => {
 				side.innerText = 'B'
                 tapeContainer.classList.remove('bg-gradient-to-r')
                 tapeContainer.classList.add('bg-gradient-to-l')
+
                 sideB = 1;
             } else {
                 side.innerText = 'A'
                 tapeContainer.classList.remove('bg-gradient-to-l')
                 tapeContainer.classList.add('bg-gradient-to-r')
+
                 sideB = 0;
             }
 
