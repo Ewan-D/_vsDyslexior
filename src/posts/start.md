@@ -8,7 +8,7 @@ Waking up, blinking at the sunlight as it picks out motes of dust across my room
 filtering in through the gaps of the curtains. I cough a little pathetically and
 turn pulling a woollen throw about me that is ever to slightly to small and the
 movement leaves my feet open to the cold. I groan and wrinkling my noes in
-defiance I squint at the red numbers of the beside alarm clock and vaguely start
+defiance I squint at the red numbers of the bedside alarm clock and vaguely start
 to do some calculating fighting inwardly all the while. Coffee, glasses, work,
 brush teeth - whats the order again?
 
