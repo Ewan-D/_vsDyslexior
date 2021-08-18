@@ -1,15 +1,19 @@
 
 
-<header class="border-b-2 border-black">
+<header class="border-b border-grey">
 <nav class="p-2" aria-labelledby="site-menu">
 <h2 id="site-menu" class="hidden">site menu</h2>
 <ul>
 
 {%- for entry in collections.all | eleventyNavigation %}
-	<li class="inline pr-4 text-lg font-bold">
-		<a {% if entry.url == page.url %} class="classicLink underline" aria-current="page" {% else %} class="classicLink" {% endif %} href="{{ entry.url | url }}">{{ entry.title }}</a>
+	<li class="inline pr-4 text-lg">
+		<a {% if entry.url == page.url %} class="classicLink underline" aria-current="page" {% else %} class="classicLink" {% endif %} href="{{ entry.url | url }}">{{ entry.title | capitalize }}</a>
 	</li>
+
 {%- endfor %}
+	<div class="float-right">
+<a href="{{ meta.feed.path | url }}" ><img class="mt-1" src="{{ meta.feed.logo | url }}" alt="rss logo and link to feed" width="24px" height="24px" title="link to rss feed"></a>
+</div>
 
 </ul>
 </nav>

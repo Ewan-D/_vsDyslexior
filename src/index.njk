@@ -6,15 +6,14 @@ eleventyNavigation:
   order: 1
 ---
 <div class="">
-    <h2 class="inline font-bold text-2xl">the latest post is:</h2>
+    <h2 class="inline text-2xl">The latest posts are:</h2>
 
     <div aria-labelledby="rssFeedLink" class="float-right">
         <h4 class="hidden" id="rssFeedLink">rss feed link</h4>
-        <a href="{{ meta.feed.path | url }}" ><img class="mt-1" src="{{ meta.feed.logo | url }}" alt="rss logo and link to feed" width="24px" height="24px" title="link to rss feed"></a>
-    </div>
+            </div>
 
-        {% set allPost = collections.post | top(1) %}
+        {% set allPost = collections.post | top(3) %}
         {% include "postsList.njk" %}
 
-    <p class="pt-2">Find the rest of them in the <a class="classicLink" href="{{ '/archive/' | url }}">vault.</a></p>
-</div>
+    <!--<p class="pt-2">Find the rest of them in the <a class="classicLink" href="{{ '/archive/' | url }}">vault.</a></p>
+</div> -->

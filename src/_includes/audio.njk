@@ -1,7 +1,7 @@
 <style>{% include "assets/css/audioPlayer.css" %}</style>
 
 <div class="hidden sm:block"><!-- make it responsive -->
-<div class="flex border sm:border-t-1  border-b-0 border-gray-800 bg-blue-900">
+<div class="flex  bg-blue-900">
 <!-- the tape itself -->
 <div id="tapeContainer" class="opacity-95 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 rounded-lg">
 
@@ -27,7 +27,8 @@
 
 <ul id="controls" class="bg-blue-100 border rounded-lg mx-3 p-0.5">
     <li class="h-7 bg-black text-white px-2"> _vsDysLeXioR</li>
-<li><div class="hidden mx-0.5 hover:bg-red-100 border-2 rounded-lg border-gray-700" onclick="spinTape()"><img src="{{ '/siteImages/audioPlayer/spin.png' | url }}"></div></li>
+    <li>
+        <div class="hidden mx-0.5 hover:bg-red-100 border-2 rounded-lg border-gray-700" onclick="spinTape()"><img src="{{ '/siteImages/audioPlayer/spin.png' | url }}"></div></li>
 </ul>
 </div>
 <!-- end of tape divs -->
@@ -39,7 +40,7 @@
 </div>
 
 <!-- responsive controls -->
-<div class="flex justify-between sm:justify-end border border-t-0 border-black bg-gray-300 w-3xl p-2 text-lg leading-tight pr-4">
+<div class="flex justify-between sm:justify-end  bg-gray-300  p-2 text-lg leading-tight pr-4">
 <div class="flex">
 <div id="songStop" class=" h-7 border-2 border-t-0 border-l-0 mr-2 px-1 hover:bg-gray-200  border-black cursor-pointer text-center" onclick="stop('song')">stop <b>[/]</b></div>
 <div id="songPlay" class=" h-7 border-2 border-t-0 border-l-0 mr-2 px-1 border-black  hover:bg-gray-200 cursor-pointer text-center" onclick="play('song')">fwd <b>|></b></div>

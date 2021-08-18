@@ -4,14 +4,15 @@ layout: layouts/postBase
 
 {% include "header.njk" %}
 
-<div id="post" class="p-2 max-w-2xl">
+<div id="post" class="p-2">
 
     <div class="mt-7 text-gray-700">
         <time datetime="{{ page.date | dateToString }}"> - {{ page.date | readableDate }}</time>
     </div>
 
 	<h1 class="font-bold text-6xl mb-7">{{ title }}</h1>
-    <div class="prose">
+  <!---->
+    <div class="prose max-w-2xl">
         {{ content | safe }}
     </div>
 

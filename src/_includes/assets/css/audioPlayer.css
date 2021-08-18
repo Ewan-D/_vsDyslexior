@@ -64,7 +64,7 @@
 }
  #audioBox {
         height: 360px;
-        width: 134px;
+        width: 100px;
         float: right;
         display: inline;
  }
@@ -82,3 +82,5 @@
 		z-index: 12;
 		position: relative;
         justify-content: center;
+
+    }
