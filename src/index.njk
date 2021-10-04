@@ -1,11 +1,12 @@
 ---
 layout: layouts/page
-title: _vsDyslexior 
+title: EwanVsDyslexior
 eleventyNavigation:
   key: home
   order: 1
 ---
-<div class="">
+<!-- <h1 class="text-6xl">EwanVsDyslexior</h1> -->
+
     <h2 class="inline text-2xl">The latest posts are:</h2>
 
     <div aria-labelledby="rssFeedLink" class="float-right">
@@ -15,5 +16,6 @@ eleventyNavigation:
         {% set allPost = collections.post | top(3) %}
         {% include "postsList.njk" %}
 
+{% image "selfPortrait2.png", "self portrait 2b pencil"%}
     <!--<p class="pt-2">Find the rest of them in the <a class="classicLink" href="{{ '/archive/' | url }}">vault.</a></p>
 </div> -->

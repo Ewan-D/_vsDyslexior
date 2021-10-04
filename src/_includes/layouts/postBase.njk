@@ -13,14 +13,21 @@
 
       <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
       <link rel="alternate" href="{{ meta.feed.path | url  }}" type="application/atom+xml" title="{{ meta.title }}">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
 
-	    <title>{{ title }}</title>
+
+	    <title>{{ title | capitalize }}</title>
 
   </head>
 
-  <body>
+  <body class="bg-yellow-50 font-body font-light">
+
+    <div class="bg-yellow-300 p-1"></div>
     <div class="max-w-2xl  mx-auto">
   	    {{ content | safe }}
         </div>
+
   </body>
 </html>

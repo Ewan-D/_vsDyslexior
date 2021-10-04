@@ -49,7 +49,6 @@
 		background-color: #000;
 }
 #tapeInfo {
-		font-family: system-ui, sans-serif;
 		z-index: 10;
 		width: 480px;
 		position: absolute;
@@ -64,7 +63,7 @@
 }
  #audioBox {
         height: 360px;
-        width: 100px;
+        width: 136px;
         float: right;
         display: inline;
  }

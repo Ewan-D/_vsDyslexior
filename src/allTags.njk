@@ -7,7 +7,7 @@ title: 'all tags'
       <h3 class="hidden" id="tagList">tags:</h3>
       <ul class="flex space-x-2">
 
-          {% for tag in collections.allTags | tagFilter('post') %}
+          {% for tag in collections.allTags | tagFilter(['post', 'quest']) %}
               <li class="underline tagged eleventyTag">
                   {% set tagUrl %}/tagged/{{ tag | slug }}/{% endset %}
                   <a href="{{ tagUrl | url }}">{{ tag }}</a>

@@ -2,20 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
         .prose h2 {
             @apply font-bold mt-3 text-xl;
         }
+        .prose h3{
+            @apply text-2xl;
+        }
         .prose p {
-            @apply mt-4;
+            @apply my-6;
         }
 
-        /*
-         If you want to effect the first letter on the page...
-         .prose>p:first-child:first-letter{
-            @apply float-left text-4xl py-1  px-0.5 mr-1 bg-black text-white leading-none shadow-site;
+        picture img {
+            @apply mx-auto my-10;
         }
-         */
     }
 
 @layer components {
@@ -25,7 +26,6 @@
     .tagged {
         @apply mr-2 px-2 bg-gray-200;
     }
-
 
 }
 
