@@ -37,18 +37,19 @@ every so often, the relationship disintegrates and erupts into an all out boss f
 
 The advice for the prospective writer is to write about what grabs you. This is
 doubly so for the dyslexic. While you can see there is a loose theme, I imagine
-that the scope of my writing will wonder idly about many areas of interest.
-Dyslexior may at moments appear to have become some distant memory. Bear in
-mind - dyslexia is life long. The struggle is right here and now. In such
-seemingly quiet moments if you are affected similarly, take encouragement in
-every act of both reading and writing.
+that the scope of my writing will wonder freely (idly?), stopping only for
+brief moments, to take a closer look at some glint of fancy before swinging a
+foot off brazenly in the opposite direction. Dyslexior may at such moments appear to
+have become some distant memory. Bear in mind - dyslexia is life long. The
+struggle is right here and now. In such seemingly quiet moments if you are
+affected similarly, take encouragement in every act of both reading and writing.
 
 Also, a side note here: I don't intend to have a comments thread on this site.
 On this point I would like to echo the brilliant [Ursula Le Guin](
 https://www.ursulakleguin.com/blog/0-a-note-at-the-beginning).
 
-However, I do include my email for anyone who would like to connect. On a side
-note: if you spot a typo or anything of that nature, please, let me know.
+However, I do include my email for anyone who would like to connect. Further,
+if you spot a typo or anything of that nature, please, let me know.
 
 ### How is the site organised?
 
