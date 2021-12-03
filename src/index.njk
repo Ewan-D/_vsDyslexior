@@ -13,6 +13,8 @@ eleventyNavigation:
 </div>
 -->
 
+<!-- {% image "Snapshot.png", "self portrait" %}  -->
+
     <h2 class="inline text-2xl">The latest posts are:</h2>
         {% set allPost = collections.post | top(3) %}
         {% include "postsList.njk" %}
