@@ -40,7 +40,7 @@ what grabs you. This, doubly so for the dyslexic. While you can see there is a
 loose theme, I imagine that the scope of my writing will wonder freely, idly
 stopping only for brief moments, to take a closer look at some glint of fancy
 before swinging a foot off brazenly in the opposite direction. Dyslexior at such
-moments appear to have become some distant memory. Bear in mind - dyslexia is
+moments may appear to have become some distant memory. Bear in mind - dyslexia is
 life long. The struggle is right here and now. In such seemingly quiet moments
 if you are affected similarly, take encouragement in every act of both reading
 and writing. Or defiantly expressing yourself through non literary mediums!
