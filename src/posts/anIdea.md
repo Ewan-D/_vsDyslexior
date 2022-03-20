@@ -18,10 +18,6 @@ see how things develop. If I am still into it 6 months from now etc.
 
 
 
-{%image "blackGlassesPortrait.png", "Pen drawing of myself from a mirror in my hotel room in devon" %}
-
-
-
 <audio id="song"><source src="{{ '/posts/that.mp3' | url }}"/></audio>
 <audio id="songB"><source src="{{ '/posts/whatIsTheMatter.mp3' | url }}"/></audio>
 {% include "audio.njk" %}
