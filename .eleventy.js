@@ -123,7 +123,8 @@ module.exports = function(eleventyConfig){
 	    "njk",
 	    "html",
         "js",
-        "mp3"
+        "mp3",
+        "svg"
 	],
 
         // pre-process *.html & *.md files using nunjucks

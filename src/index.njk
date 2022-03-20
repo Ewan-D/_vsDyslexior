@@ -5,28 +5,25 @@ eleventyNavigation:
   key: home
   order: 1
 ---
-<!-- <h1 class="text-6xl">EwanVsDyslexior</h1> -->
 
-<!--
-<div class="m-auto bg-black">
-{% image "selfPortraitEvD.jpg", "self portrait 2b pencil"%}
-</div>
--->
+  <div class="pt-6 bg-no-repeat bg-cover bg-center" style="background-image: url(portraitZoom.svg)">
+  <div class="pb-8 pt-72 pl-8">
+        {% set allPost = collections.post | top(1) %}
+        {% include "postsList.njk" %}
+  </div>
+  </div>
 
-<h2 class="inline text-2xl">Primary phase<h2>
+<h2 class="pt-2 text-2xl">Primary phase</h2>
 
 <p class="py-2"> Other than a blog, with music and art, I can't tell you exactly
-what I am doing with this site. That I am discovering as I go along. Maybe
-after the next post I'll have it. For now, I just want to work with it. As
+what I am doing with this site. That, I am discovering as I go along. Maybe
+after the next post I'll have it. For now I just want to work with it. As
 such, I am calling this the primary phase. There are some posts below that you can
 help yourself too and an about page which gives the gist of its origins and, as
 well, my first attempt at pinning down the whats and the whys etc.</p>
 
-<!-- {% image "Snapshot.png", "self portrait" %}  -->
-
-    <h2 class="inline text-2xl">The latest posts are:</h2>
+    <h2 class="pt-2 text-2xl">The last three post are:</h2>
         {% set allPost = collections.post | top(3) %}
         {% include "postsList.njk" %}
 
-    <!--<p class="pt-2">Find the rest of them in the <a class="classicLink" href="{{ '/archive/' | url }}">vault.</a></p>
-</div> -->
+    <p class="py-2">The rest are in the <a class="classicLink" href="{{ '/archive/' | url }}">vault.</a></p>
