@@ -1,10 +1,9 @@
 ---
 title: Solo Piano
-date: 2022-16-05
+date: 2022-05-16
 tags:
  - Piano
 ---
-
 
 {%image "meWithCovidPortrait.png", "a pencil sketch i did while self isolating with covid" %}
 
