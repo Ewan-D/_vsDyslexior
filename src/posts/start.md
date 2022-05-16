@@ -21,8 +21,8 @@ So, feeling nostalgic, and inspired by the design of the Op1, I have started mak
 cassette player for the browser. This is what I have to offer so far by way of a
 throw back (if you are viewing this on mobile switch to landscape for the full experience!):
 
-<audio id="song"><source src="{{ '/posts/plinkReverse.mp3' | url }}"/></audio>
-<audio id="songB"><source src="{{ '/posts/combingExperimentOP1.mp3' | url }}"/></audio>
+<audio id="song"><source src="{{ '/posts/assets/music/plinkReverse.mp3' | url }}"/></audio>
+<audio id="songB"><source src="{{ '/posts/assets/music/combingExperimentOP1.mp3' | url }}"/></audio>
 {% include "audio.njk" %}
 
 Hi, my name is Ewan. I make music, art and do a bit of programming too. I wanted

@@ -10,8 +10,8 @@ tags:
 
 {% image "sketchbookCollage1.png", "a collage of doodles taken from sketch books I have been using this year (2021)" %}
 
-<audio id="song"><source src="{{ '/posts/sketchBook.mp3' | url }}"/></audio>
-<audio id="songB"><source src="{{ '/posts/piano.mp3' | url }}"/></audio>
+<audio id="song"><source src="{{ '/posts/assets/music/sketchBook.mp3' | url }}"/></audio>
+<audio id="songB"><source src="{{ '/posts/assets/music/piano.mp3' | url }}"/></audio>
 
 A collage of pictures taken from sketchbooks I have been using this year. Going
 around in a circle clock wise from the bottom left corner: drawn from a photo of

@@ -17,8 +17,8 @@ Take the call! I think the word January helps complete it.
 The two tracks below where fun to put together as well. Detuned and wonky, I
 wonder if they align?
 
-<audio id="song"><source src="{{ '/posts/lightJanuary.mp3' | url }}"/></audio>
-<audio id="songB"><source src="{{ '/posts/darkJanuary.mp3' | url }}"/></audio>
+<audio id="song"><source src="{{ '/posts/assets/music/lightJanuary.mp3' | url }}"/></audio>
+<audio id="songB"><source src="{{ '/posts/assets/music/darkJanuary.mp3' | url }}"/></audio>
 {% include "audio.njk" %}
 
 

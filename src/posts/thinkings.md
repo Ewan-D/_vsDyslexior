@@ -6,8 +6,8 @@ tags:
 
 ---
 
-<audio id="song"><source src="{{ '/posts/Apiece.mp3' | url }}"/></audio>
-<audio id="songB"><source src="{{ '/posts/combingExperimentOP1.mp3' | url }}"/></audio>
+<audio id="song"><source src="{{ '/posts/assets/music/Apiece.mp3' | url }}"/></audio>
+<audio id="songB"><source src="{{ '/posts/assets/music/combingExperimentOP1.mp3' | url }}"/></audio>
 
 
 

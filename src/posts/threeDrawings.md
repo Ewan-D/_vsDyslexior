@@ -23,8 +23,8 @@ Fond the op1 recording below from lockdown 2020 today while I was putting this
 post together and was surprised to hear my voice in there. Takes a little while
 for side A to get started...
 
-<audio id="song"><source src="{{ '/posts/that.mp3' | url }}"/></audio>
-<audio id="songB"><source src="{{ '/posts/whatIsTheMatter.mp3' | url }}"/></audio>
+<audio id="song"><source src="{{ '/posts/assets/music/that.mp3' | url }}"/></audio>
+<audio id="songB"><source src="{{ '/posts/assets/music/whatIsTheMatter.mp3' | url }}"/></audio>
 {% include "audio.njk" %}
 
 

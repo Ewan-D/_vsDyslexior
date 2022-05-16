@@ -1,5 +1,4 @@
 // lets just get all the eleventy plugins...
-
 const { DateTime } = require("luxon");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const Image = require("@11ty/eleventy-img");
@@ -111,18 +110,17 @@ module.exports = function(eleventyConfig){
     eleventyConfig.addPassthroughCopy('src/css/style.css');
     eleventyConfig.addPassthroughCopy('src/feed/rssLogo.png')
     eleventyConfig.addPassthroughCopy('src/siteImages/')
-    eleventyConfig.addPassthroughCopy('src/js/fireworks.js')
-    eleventyConfig.addPassthroughCopy('src/js/todoList.js')
 
     // to find all tags (from .json in post folder) etc
     eleventyConfig.setDataDeepMerge('true');
+
+    eleventyConfig.addPassthroughCopy('src/posts/learningCurve/' )
 
     return {
 	templateFormats: [
 	    "md",
 	    "njk",
 	    "html",
-        "js",
         "mp3",
         "svg"
 	],
@@ -131,10 +129,9 @@ module.exports = function(eleventyConfig){
         markdownTemplateEngine: "njk",
         htmlTemplateEngine: "njk",
 
-
     dir: {
         input: "src",
         output: "dist",
-        }
+        },
     };
 };

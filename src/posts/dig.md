@@ -12,7 +12,7 @@ Dig. Digging down. Pencil and Clay. Shadow, gesture and anatomy. Bought a pack o
 
 The two tracks on the tape. Clone Drone and Four Four.
 
-<audio id="song"><source src="{{ '/posts/cloneDrone.mp3' | url }}"/></audio>
-<audio id="songB"><source src="{{ '/posts/fourFour.mp3' | url }}"/></audio>
+<audio id="song"><source src="{{ '/posts/assets/music/cloneDrone.mp3' | url }}"/></audio>
+<audio id="songB"><source src="{{ '/posts/assets/music/fourFour.mp3' | url }}"/></audio>
 {% include "audio.njk" %}
 
